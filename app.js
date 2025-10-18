@@ -171,8 +171,69 @@ const preguntas = [
     pregunta: "¿Quién es el Pokémon número 1 en la Pokédex Nacional?",
     opciones: ["Bulbasaur", "Pikachu", "Mew", "Ditto"],
     respuesta: "Bulbasaur"
+  },
+  {
+    pregunta: "¿Qué tipo de Pokémon es Charmander?",
+    opciones: ["Agua", "Fuego", "Planta", "Tierra"],
+    respuesta: "Fuego"
+  },
+  {
+    pregunta: "¿En qué región se encuentra el Pokémon legendario Lugia?",
+    opciones: ["Kanto", "Johto", "Hoenn", "Sinnoh"],
+    respuesta: "Johto"
+  },
+  {
+    pregunta: "¿Qué objeto se usa para evolucionar a Eevee en Vaporeon?",
+    opciones: ["Piedra Fuego", "Piedra Agua", "Piedra Trueno", "Piedra Hoja"],
+    respuesta: "Piedra Agua"
+  },
+  {
+    pregunta: "¿Qué tipo de Pokémon es Gengar?",
+    opciones: ["Fantasma/Veneno", "Psíquico", "Siniestro", "Veneno puro"],
+    respuesta: "Fantasma/Veneno"
+  },
+  {
+    pregunta: "¿Cuál de estos Pokémon puede volar?",
+    opciones: ["Gyarados", "Onix", "Machamp", "Rhydon"],
+    respuesta: "Gyarados"
+  },
+  {
+    pregunta: "¿Qué Pokémon legendario representa el tiempo?",
+    opciones: ["Dialga", "Palkia", "Giratina", "Arceus"],
+    respuesta: "Dialga"
+  },
+  {
+    pregunta: "¿Cuántas evoluciones diferentes puede tener Eevee actualmente?",
+    opciones: ["5", "7", "8", "9"],
+    respuesta: "8"
+  },
+  {
+    pregunta: "¿Qué Pokémon es conocido como el 'Pokémon Semilla'?",
+    opciones: ["Bulbasaur", "Oddish", "Bellsprout", "Chikorita"],
+    respuesta: "Bulbasaur"
+  },
+  {
+    pregunta: "¿Cuál es el Pokémon más grande según su altura?",
+    opciones: ["Wailord", "Steelix", "Onix", "Gyarados"],
+    respuesta: "Wailord"
+  },
+  {
+    pregunta: "¿Qué tipo de Pokémon es super efectivo contra los de tipo Dragón?",
+    opciones: ["Hielo", "Planta", "Roca", "Veneno"],
+    respuesta: "Hielo"
+  },
+  {
+    pregunta: "¿Qué Pokémon se conoce como el 'Pokémon clon'?",
+    opciones: ["Mewtwo", "Ditto", "Mew", "Genesect"],
+    respuesta: "Mewtwo"
+  },
+  {
+    pregunta: "¿Qué tipo de ataque no afecta a los Pokémon de tipo Fantasma?",
+    opciones: ["Normal", "Agua", "Fuego", "Siniestro"],
+    respuesta: "Normal"
   }
 ];
+
 
 let indice = 0;
 
