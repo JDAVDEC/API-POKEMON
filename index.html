@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pokémon_logo.svg" 
+         alt="Pokémon Logo" class="logo" />
+    <h1>Pokémon World</h1>
+    <nav>
+      <button id="btnGallery" class="nav-btn active">Galería Pokémon</button>
+      <button id="btnTrivia" class="nav-btn">Trivia Pokémon</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- GALERÍA -->
+    <section id="gallery" class="section active">
+      <h2>Galería de Pokémon</h2>
+      <div id="pokemonContainer" class="grid"></div>
+      <button id="btnAdd" class="main-btn">Agregar Pokémon (POST)</button>
+    </section>
+
+    <!-- TRIVIA -->
+    <section id="trivia" class="section">
+      <h2>Trivia Pokémon</h2>
+      <div id="triviaContainer" class="trivia-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="contacto" class="contacto">
+      <h2>Contacto</h2>
+      <p>Desarrollado por <b>Julian David Elvira</b></p>
+      <p>Email: <a href="mailto:elviracastrojuliandavid@gmail.com">elviracastrojuliandavid@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/julian.d.e.c" target="_blank">@julian.d.e.c</a></p>
+      <p>Teléfono: <b>+57 314 646 1709</b></p>
+    </section>
+
+    <p class="copy">© 2025 Pokémon World - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
